@@ -65,9 +65,9 @@ To assess the robustness of the findings from the original reanalysis, the follo
 
 Effect sizes will be interpreted on the log-odds scale, considering both the point estimate and the limits of its 95% confidence interval. To put the magnitude of the trend in context, the estimated change over the study period may also be compared with differences in log-odds associated with sociodemographic characteristics, such as living alone versus living with others or belonging to different age groups.
 
-For each measure of social connectedness, we may also report the estimates and 95% confidence intervals for the first three tests in minutes. This will depend on how well the model reproduces observed daily minutes, in terms of the difference between survey-weighted observed and predicted means in each year (e.g., an absolute error/bias of less than 2 minutes) and the survey-weighted *R_squared* across respondents.
+For each measure of social connectedness, we may also report the estimates and 95% confidence intervals for the first three tests in minutes. This will depend on how well the model reproduces observed daily minutes, in terms of the difference between survey-weighted observed and predicted means in each year (e.g., an absolute error/bias of less than 2 minutes) and the survey-weighted *R squared* across respondents.
 
-For Tests 1–3, we will convert the mean predicted probability at each endpoint to daily minutes by multiplying it by the same survey-weighted mean number of eligible diary minutes, pooled across study years. Eligible diary time is thus held fixed at its pooled value to account for differences in analyzable time across years.
+For Tests 1-3, we will convert the mean predicted probability at each endpoint to daily minutes by multiplying it by the same survey-weighted mean number of eligible diary minutes, pooled across study years. Eligible diary time is thus held fixed at its pooled value to account for differences in analyzable time across years.
 
 ## Main modelling assumptions
 
