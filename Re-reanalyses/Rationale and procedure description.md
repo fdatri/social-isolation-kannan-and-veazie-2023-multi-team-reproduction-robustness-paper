@@ -6,6 +6,8 @@ In that reanalysis, we used `glmmTMB` to fit separate weighted mixed-effects log
 
 This approach however has two main limitations. First, `glmmTMB` uses the episode weights as multipliers of the log-likelihood contributions. In this way the models treat larger weights as additional statistical information, even though they reflect episode duration and survey representation. Each episode still provides a single observation, so the model-based standard errors may misstate the uncertainty. Second, even with survey weights, our models assumed a common annual trend across sociodemographic groups. If trends differed substantially across groups, the estimated slope could be biased relative to the population-weighted average of the group-specific slopes (see Test 2 in `rg_test.R`). In our original subgroup analyses, however, the estimated differences in slopes were modest and smaller in magnitude than the overall trend, suggesting that any bias from assuming a common slope was likely small.
 
+To develop the final model for the 2003–2019 re-reanalysis, we first used the 2021–2023 data to perfect model calibration, compare alternative model specifications, and assess the computational feasibility of refitting the model within random subgroups.
+
 ## Procedure
 
 To address these limitations, we make two changes to our original analysis to improve validity and see if our conclusions hold.
